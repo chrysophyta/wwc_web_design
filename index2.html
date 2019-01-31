@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Document</title>
+    <style>
+      body {
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        outline: 1px red solid;
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .container1 {
+        height: 50%;
+        background: pink;
+        height: 100vh;
+      }
+      .container2 {
+        background: lightblue;
+        height: 100vh;
+      }
+      .box {
+        width: 100px;
+        height: 100px;
+      }
+      .container1 .box {
+        margin: 10px;
+      }
+      .container2 .box {
+        height: calc(100% - 60px);
+        width: 50%;
+        margin: 30px;
+      }
+      .box4 {
+        background-image: url('https://images.unsplash.com/photo-1548590675-e28af66832ee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+      }
+    </style>
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+  </head>
+  <body>
+    <div class="container container1">
+      <a href="index.html"> <div class="box">1</div> </a>
+      <div class="box box2">2</div>
+      <div class="box box3">3</div>
+    </div>
+    <div class="container container2">
+      <div class="box box4">4</div>
+      <div class="box">5</div>
+    </div>
+  </body>
+</html>
