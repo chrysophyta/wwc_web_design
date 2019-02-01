@@ -1,57 +1,75 @@
+<!--第一行宣告此文件是 HTML，而且是版本 HTML5 -->
 <!DOCTYPE html>
+
+<!--定義文件的基底，所有文件內容都被包在此標籤裡面-->
 <html lang="en">
+  <!--給瀏覽器看的，關於此頁面的一些資訊-->
   <head>
+    <!--meta 裡面放的是關於頁面的敘述、關鍵字、作者等資訊的地方-->
+    <!--提供瀏覽器或搜尋引擎利用-->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <title>Document</title>
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        outline: 1px red solid;
-      }
-      p {
-        color: #ffffff;
-        font-size: 24px;
-        background: #8e78ba;
-        width: 300px;
-        border: solid 10px black;
-      }
-      .pink {
-        background: pink;
-      }
-      .第一篇 {
-        color: red;
-      }
-      .h1 {
-        color: blue;
-        padding: 10px 30px;
-        margin: 20px;
-      }
-      #h1 {
-        color: yellow;
-      }
-    </style>
-    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <!--顯示在瀏覽器上面的頁面名稱-->
+    <title>HTML</title>
+
+    <!--在內部放置 CSS 的標籤-->
+    <style></style>
   </head>
+
+  <!--出現在瀏覽器畫面裡的，給人類看的部分-->
   <body>
-    <div class="pink">
-      <p class="h1">第一行</p>
-      <p>第二行</p>
-      <p>第三行</p>
-    </div>
-    <div>
-      <p class="h1">第一行</p>
-      <p>第二行</p>
-      <p>第三行</p>
-    </div>
-    <div>
-      <p class="h1">第一行</p>
-      <p>第二行</p>
-      <p>第三行</p>
-    </div>
+    <!--這是註解-->
+
+    <!--各種大小的標題-->
+    <h1>這是h1</h1>
+    <h2>這是h2</h2>
+    <h3>這是h3</h3>
+    <h4>這是h4</h4>
+    <h5>這是h5</h5>
+    <h6>這是h6</h6>
+
+    <!--文章段落-->
+    <!--每用一個 p 標籤就是一段-->
+    <p>
+      聽運再年何樂圖直城事青心。文邊舉國緊通界年舉知不景開出那同代的利的式同？究子無包加那人覺生語質蘭、心是心後最個久，天小比者海安？得山腦大居物時定是照門友的工加官些到檢顯，合而題自車心不於中藝愛不久用個為及背利合絕究出飛。年字市府。
+    </p>
+    <p>
+      在因高因視他數量的。時正美專……了口由：問實來、傳本下：品加持建破內。
+    </p>
+    <p>
+      白重器望幾理無權……戲市都不沒大一推來們然後傳，為樣教本過只個公候就車而。民發將思愛老；生候車家中可臺思中角升開這新……上他子蘭立們達有的。及院但有？落拉了機親笑片意要配體以已政光從！出達了師小整實他子類：外隊力戰代裝香。親於題此歌變樣造女金是所園法門一文氣遠示現省，夫重小……利況色館需處還地位而在。的票。
+    </p>
+    <p>
+      樹立反們童告是。心顧理一原重能成為報非像長常：照親險當告、老皮極空發、四示辦臺會天數起過書中頭品險開友麼系。區果麗變之五接常員理。接前的作管他車就內校中音非，有式受分安大性時民好他落氣電使安，他的在管的盡務出望：智們國的也，更後研力清開人園的著布個因而方對況玩春。
+    </p>
+
+    <!--無順序的列表-->
+    <ul>
+      <li>列表項目一</li>
+      <li>列表項目二</li>
+      <li>列表項目三</li>
+    </ul>
+
+    <!--有順序的列表-->
+    <ol>
+      <li>列表項目一</li>
+      <li>列表項目二</li>
+      <li>列表項目三</li>
+    </ol>
+
+    <!--圖片-->
+    <img
+      src="http://placekitten.com/300/400"
+      alt="這是圖片如果顯示不出來時展示的文字"
+    />
+    <!--按鈕-->
+    <button>這是按鈕</button>
+    <!--輸入框-->
+    <input type="text" placeholder="這是輸入框" />
+
+    <a href="styling_text.html">裝飾 p </a>
+    <a href="index2.html">flexbox 排版</a>
   </body>
 </html>
